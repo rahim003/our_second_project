@@ -1,7 +1,6 @@
 package org.example.dao;
 
 import org.example.config.JDBCConfig;
-import org.example.enums.Gender;
 import org.example.model.User;
 
 import java.sql.*;
@@ -56,7 +55,7 @@ public class UserDaoImpl implements UserDao {
         String sql = "drop table users";
         try (Statement statement = connection.createStatement()) {
             statement.execute(sql);
-return "successfully drop table";
+            return "successfully drop table";
 
         } catch (SQLException throwables) {
             throwables.printStackTrace();
