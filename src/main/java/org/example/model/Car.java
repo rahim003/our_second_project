@@ -1,5 +1,21 @@
 package org.example.model;
 
-public class Car {
+import lombok.*;
+import org.example.enums.Country;
+
+@Getter
+@Setter
+@AllArgsConstructor
+@NoArgsConstructor
+@ToString
+@EqualsAndHashCode
+    private Long id;
+    private String name;
+    private String colour;
+    private int yearOfIssue;
+    private Country countryOfOrigin;
+    private int price;
+
+
 
 }
