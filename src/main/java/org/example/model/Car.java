@@ -9,7 +9,6 @@ import org.example.enums.Country;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
-public class Car {
     private Long id;
     private String name;
     private String colour;
