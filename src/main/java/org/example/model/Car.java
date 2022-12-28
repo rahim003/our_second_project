@@ -1,7 +1,6 @@
 package org.example.model;
 
 import lombok.*;
-import org.example.enums.Country;
 
 @Getter
 @Setter
@@ -9,13 +8,13 @@ import org.example.enums.Country;
 @NoArgsConstructor
 @ToString
 @EqualsAndHashCode
+public class Car {
     private Long id;
     private String name;
     private String colour;
     private int yearOfIssue;
-    private Country countryOfOrigin;
-    private int price;
 
+    private int price;
 
 
 }
