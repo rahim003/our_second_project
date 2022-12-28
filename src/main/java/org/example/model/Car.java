@@ -16,6 +16,4 @@ import org.example.enums.Country;
     private Country countryOfOrigin;
     private int price;
 
-
-
 }
