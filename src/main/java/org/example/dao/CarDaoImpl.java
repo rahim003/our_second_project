@@ -60,7 +60,7 @@ public class CarDaoImpl implements CarDao {
                 """;
         try (Statement statement = connection.createStatement()) {
             statement.execute(sql);
-            return "successfully drop table";
+            return "successfully drop tables";
         } catch (SQLException e) {
             e.printStackTrace();
         }
