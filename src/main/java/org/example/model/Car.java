@@ -13,7 +13,6 @@ public class Car {
     private String name;
     private String colour;
     private int yearOfIssue;
-
     private int price;
 
 

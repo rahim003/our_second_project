@@ -50,7 +50,7 @@ public class CarDaoImpl implements CarDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-        return "FAILED SAVE CAR";
+        return "FAILED SAVE CARS";
     }
 
     @Override
@@ -155,7 +155,7 @@ public class CarDaoImpl implements CarDao {
             preparedStatement.setInt(4, car.getPrice());
             return car;
         } catch (SQLException e) {
-            e.printStackTrace();
+            System.out.println(e);
         }
         return null;
     }
