@@ -2,10 +2,11 @@ package org.example.service;
 
 import org.example.model.User;
 
+import java.sql.SQLException;
 import java.util.List;
 
 public interface UserService {
-    String createTable();
+    String createTable() throws SQLException;
 
     String saveStudent(User user);
 
