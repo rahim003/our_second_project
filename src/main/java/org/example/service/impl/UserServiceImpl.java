@@ -6,6 +6,7 @@ import org.example.service.UserService;
 import java.util.List;
 
 public class UserServiceImpl implements UserService {
+
     @Override
     public String createTable() {
         return null;
